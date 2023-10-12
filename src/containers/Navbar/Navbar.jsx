@@ -3,7 +3,10 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className='app__navbar'>
+      <div className='app__navbar-logo'>
+      Maison De La Fleur</div>
+    </div>
   )
 }
 
