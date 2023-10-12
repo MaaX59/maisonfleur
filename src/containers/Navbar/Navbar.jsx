@@ -12,7 +12,7 @@ const Navbar = () => {
       <img src={Bouquet} alt="bouquet" />
       Maison De La Fleur</div>
       <div className='app__navbar-menu'>
-        <Hamburger />
+        <Hamburger toggled={open} toggle={setOpen}/>
       </div>
     </div>
   )

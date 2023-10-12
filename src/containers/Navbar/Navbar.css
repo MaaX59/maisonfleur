@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 .app__navbar {
   background: #f5cfd3;
-  height: 40px;
+  height: 45px;
   padding: 1rem;
+  display: flex;
+  justify-content: space-between;
 
-  /* align-items: baseline; */
+   align-items: baseline; 
 }
 .app__navbar-logo {
   font-family: "Great Vibes", cursive;
