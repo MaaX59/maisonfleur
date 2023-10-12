@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
 .app__navbar {
   background: #f5cfd3;
   height: 45px;
@@ -6,7 +8,7 @@
   display: flex;
   justify-content: space-between;
 
-   align-items: baseline; 
+  align-items: baseline;
 }
 .app__navbar-logo {
   font-family: "Great Vibes", cursive;
@@ -18,4 +20,78 @@
 .app__navbar-logo img {
   height: 45px;
   margin: 0 0.3rem;
+}
+.app__navbar-menu-popup {
+  /* display: none; */
+  background-image: url("../../images/floral_frame.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 77px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+
+  transition: 0.5s ease;
+  z-index: 5;
+  flex-direction: column;
+}
+
+.app__navbar-menu-popup-links {
+  text-decoration: none;
+ 
+
+  margin-top: 150px;
+}
+.app__navbar-menu-popup-links li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+}
+.app__navbar-menu-popup-links li a {
+  font-family: "Cormorant Upright", serif;
+ 
+  text-decoration: none;
+  color: rgb(172, 114, 8);
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+.app__navbar-menu-popup-links li a:visited {
+  text-decoration: none;
+  color: rgb(172, 114, 8);
+}
+.app__navbar-menu-popup-links li a:hover{
+  color: rgb(199, 131, 6);
+}
+
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }

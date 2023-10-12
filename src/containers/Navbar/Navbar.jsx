@@ -1,6 +1,7 @@
 import {React, useState} from 'react'
 import './Navbar.css'
 import Bouquet from '../../images/rose.png'
+
 import Hamburger from 'hamburger-react'
 
 
@@ -14,19 +15,20 @@ const Navbar = () => {
       <div className='app__navbar-menu'>
         <Hamburger toggled={open} toggle={setOpen}/>
         {open && (
-          <div className='app__navbar-menu-popup'> 
-          <ul>
+          <div className='app__navbar-menu-popup slide-bottom'> 
+          
+          <ul className='app__navbar-menu-popup-links'>
             <li>
-              <a href=''></a>
+              <a href='#about'>About</a>
             </li>
             <li>
-              <a href=''></a>
+              <a href='#gallery'>Gallery</a>
             </li>
             <li>
-              <a href=''></a>
+              <a href='#services'>Services</a>
             </li>
             <li>
-              <a href=''></a>
+              <a href='#contact'>Contact</a>
             </li>
           </ul>
       </div>
