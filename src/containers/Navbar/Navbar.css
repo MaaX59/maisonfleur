@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-.app__navbar{
-    background: rgb(211, 121, 223);
-    height: 40px;
-    padding: 1rem;
-    
-   
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+.app__navbar {
+  background: #f5cfd3;
+  height: 40px;
+  padding: 1rem;
 
+  /* align-items: baseline; */
 }
-.app__navbar-logo{
-    font-family: 'Great Vibes', cursive;
-    font-size: 40px;
-    
-    
+.app__navbar-logo {
+  font-family: "Great Vibes", cursive;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
 
+.app__navbar-logo img {
+  height: 45px;
+  margin: 0 0.3rem;
 }
