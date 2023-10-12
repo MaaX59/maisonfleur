@@ -13,6 +13,24 @@ const Navbar = () => {
       Maison De La Fleur</div>
       <div className='app__navbar-menu'>
         <Hamburger toggled={open} toggle={setOpen}/>
+        {open && (
+          <div className='app__navbar-menu-popup'> 
+          <ul>
+            <li>
+              <a href=''></a>
+            </li>
+            <li>
+              <a href=''></a>
+            </li>
+            <li>
+              <a href=''></a>
+            </li>
+            <li>
+              <a href=''></a>
+            </li>
+          </ul>
+      </div>
+        )}
       </div>
     </div>
   )
