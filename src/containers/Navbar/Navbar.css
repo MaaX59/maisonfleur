@@ -12,7 +12,8 @@
 }
 .app__navbar-logo {
   font-family: "Great Vibes", cursive;
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: 600;
   display: flex;
   align-items: center;
 }

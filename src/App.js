@@ -7,9 +7,10 @@ function App() {
     <div className="app">
     <Navbar />
     <Header />
+    <Services />
     <Gallery />
     <Review />
-    <Services />
+    
     <About />
     <Contact />
 
