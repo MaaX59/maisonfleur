@@ -132,6 +132,9 @@
   .app__navbar {
     justify-content: space-between;
   }
+  .app__navbar-logo{
+    font-size: 30px;
+  }
   .app__navbar-smallscreen {
     
     display:flex ;

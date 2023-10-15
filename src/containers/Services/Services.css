@@ -4,29 +4,45 @@
 .app__services-weddings{
     display: flex;
     justify-content: space-between;
-    height: 49.2vw;
+    height: 51vw;
+    /* border: 1px solid black; */
     
 
 }
 .app__services-weddings-content{
-    height: 49.2vw;
-    width: 49.2vw;
+    height: 51vw;
+    width: 51vw;
+    font-family: "Cormorant Upright";
+    color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .app__services-valentine{
     display: flex;
     justify-content: space-between;
-    height: 49.2vw;
+    height: 51vw;
 }
 .app__services-valentine-content{
-    height: 49.2vw;
-    width: 49.2vw;
+    height: 51vw;
+    width: 51vw;
+    font-family: "Cormorant Upright";
+    color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .app__services-mother{
     display: flex;
     justify-content: space-between;
-    height: 49.2vw;
+    height: 51vw;
 }
 .app__services-mother-content{
-    height: 49.2vw;
-    width: 49.2vw;
+    height: 51vw;
+    width: 51vw;
+    font-family: "Cormorant Upright";
+    color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

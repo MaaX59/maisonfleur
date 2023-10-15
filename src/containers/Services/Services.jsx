@@ -8,15 +8,21 @@ const Services = () => {
     <div className='app__services'>
       <div className='app__services-weddings'>
       <img src={Wedding} alt="wedding" />
-      <div className='app__services-weddings-content'></div>
+      <div className='app__services-weddings-content'>
+        <h1>Weddings</h1>
+      </div>
       </div>
       <div className='app__services-valentine'>
-      <div className='app__services-valentine-content'></div>
+      <div className='app__services-valentine-content'>
+      <h1>Valentine</h1>
+      </div>
         <img src={Valentine} alt="valentine" />
       </div>
       <div className='app__services-mother'>
         <img src={Mother} alt="mothers day" />
-        <div className='app__services-mother-content'></div>
+        <div className='app__services-mother-content'>
+          <h1>Mother´s Day</h1>
+        </div>
       </div>
       {/* <div className='app__services-'></div>
       <div className='app__services'></div> */}
