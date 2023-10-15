@@ -33,6 +33,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: aliceblue;
   font-weight: 700;
+  cursor: pointer;
 }
 @media screen and (max-width: 1150px) {
   .app__header-text {

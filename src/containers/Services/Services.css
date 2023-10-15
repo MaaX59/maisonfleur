@@ -4,14 +4,15 @@
 .app__services-weddings{
     display: flex;
     justify-content: space-between;
-    height: 51vw;
+    height: 45vw;
     /* border: 1px solid black; */
     
 
 }
 .app__services-weddings-content{
-    height: 51vw;
-    width: 51vw;
+    height: 45vw;
+    width: 45vw;
+    font-size: 50px;
     font-family: "Cormorant Upright";
     color: darkgoldenrod;
     display: flex;
@@ -21,11 +22,12 @@
 .app__services-valentine{
     display: flex;
     justify-content: space-between;
-    height: 51vw;
+    height: 45vw;
 }
 .app__services-valentine-content{
-    height: 51vw;
-    width: 51vw;
+    height: 45vw;
+    width: 45vw;
+    font-size: 50px;
     font-family: "Cormorant Upright";
     color: darkgoldenrod;
     display: flex;
@@ -35,14 +37,71 @@
 .app__services-mother{
     display: flex;
     justify-content: space-between;
-    height: 51vw;
+    height: 45vw;
 }
 .app__services-mother-content{
-    height: 51vw;
-    width: 51vw;
+    height: 45vw;
+    width: 45vw;
+    font-size: 50px;
     font-family: "Cormorant Upright";
     color: darkgoldenrod;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1150px){
+    .app__services-mother-content{
+font-size: 35px;
+    }
+    .app__services-valentine-content{
+        font-size: 35px;
+    }
+    .app__services-weddings-content{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 800px){
+    .app__services-mother-content{
+font-size: 25px;
+    }
+    .app__services-valentine-content{
+        font-size: 25px;
+    }
+    .app__services-weddings-content{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 570px){
+    .app__services-mother-content{
+font-size: 20px;
+    }
+    .app__services-valentine-content{
+        font-size: 20px;
+    }
+    .app__services-weddings-content{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 470px){
+    .app__services-mother-content{
+font-size: 15px;
+    }
+    .app__services-valentine-content{
+        font-size: 15px;
+    }
+    .app__services-weddings-content{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 350px){
+    .app__services-mother-content{
+font-size: 10px;
+    }
+    .app__services-valentine-content{
+        font-size: 10px;
+    }
+    .app__services-weddings-content{
+        font-size: 10px;
+    }
 }

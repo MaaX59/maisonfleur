@@ -5,7 +5,7 @@ import Mother from '../../images/mothersday.webp'
 import Wedding from '../../images/wedding.jpg'
 const Services = () => {
   return (
-    <div className='app__services'>
+    <div className='app__services' id='services'>
       <div className='app__services-weddings'>
       <img src={Wedding} alt="wedding" />
       <div className='app__services-weddings-content'>

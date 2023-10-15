@@ -34,7 +34,7 @@
 
 }
 .app__navbar-menu-links li a{
-  margin-right: 1rem;
+  padding-left: 1rem;
 }
 
 .app__navbar-menu-links li a , .app__navbar-contact a{
@@ -127,13 +127,17 @@
     transform: translateY(0);
   }
 }
-
+@media screen and (max-width: 1300px){
+  .app__navbar-logo{
+    font-size: 30px;
+  }
+}
 @media screen and (max-width: 1150px) {
   .app__navbar {
     justify-content: space-between;
   }
   .app__navbar-logo{
-    font-size: 30px;
+    font-size: 28px;
   }
   .app__navbar-smallscreen {
     
