@@ -16,11 +16,11 @@
 }
 .app__header-text h1 {
   font-family: "Great Vibes", cursive;
-  font-size: 50px;
+  font-size: 60px;
 }
 .app__header-text h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: 300;
+  font-family:"Cormorant Upright";
+  font-weight: 500;
   text-transform: uppercase;
 }
 .app__header-text button {

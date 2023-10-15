@@ -33,6 +33,9 @@
   
 
 }
+.app__navbar-menu-links li a{
+  margin-right: 1rem;
+}
 
 .app__navbar-menu-links li a , .app__navbar-contact a{
   display: flex;

@@ -1,0 +1,32 @@
+.app__services{
+
+}
+.app__services-weddings{
+    display: flex;
+    justify-content: space-between;
+    height: 49.2vw;
+    
+
+}
+.app__services-weddings-content{
+    height: 49.2vw;
+    width: 49.2vw;
+}
+.app__services-valentine{
+    display: flex;
+    justify-content: space-between;
+    height: 49.2vw;
+}
+.app__services-valentine-content{
+    height: 49.2vw;
+    width: 49.2vw;
+}
+.app__services-mother{
+    display: flex;
+    justify-content: space-between;
+    height: 49.2vw;
+}
+.app__services-mother-content{
+    height: 49.2vw;
+    width: 49.2vw;
+}
