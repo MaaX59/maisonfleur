@@ -4,14 +4,14 @@
 .app__services-weddings{
     display: flex;
     justify-content: space-between;
-    height: 45vw;
+    height: 35vw;
     /* border: 1px solid black; */
     
 
 }
 .app__services-weddings-content{
-    height: 45vw;
-    width: 45vw;
+    height: 35vw;
+    width: 35vw;
     font-size: 50px;
     font-family: "Cormorant Upright";
     color: darkgoldenrod;
@@ -22,11 +22,11 @@
 .app__services-valentine{
     display: flex;
     justify-content: space-between;
-    height: 45vw;
+    height: 35vw;
 }
 .app__services-valentine-content{
-    height: 45vw;
-    width: 45vw;
+    height: 35vw;
+    width: 35vw;
     font-size: 50px;
     font-family: "Cormorant Upright";
     color: darkgoldenrod;
@@ -37,11 +37,11 @@
 .app__services-mother{
     display: flex;
     justify-content: space-between;
-    height: 45vw;
+    height: 35vw;
 }
 .app__services-mother-content{
-    height: 45vw;
-    width: 45vw;
+    /* height: 35vw;
+    width: 35vw; */
     font-size: 50px;
     font-family: "Cormorant Upright";
     color: darkgoldenrod;
