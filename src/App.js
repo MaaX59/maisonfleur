@@ -8,8 +8,9 @@ function App() {
     <Navbar />
     <Header />
     <Services />
-    <Gallery />
     <Review />
+    <Gallery />
+    
     
     <About />
     <Contact />

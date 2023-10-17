@@ -40,8 +40,8 @@
     height: 35vw;
 }
 .app__services-mother-content{
-    /* height: 35vw;
-    width: 35vw; */
+    height: 35vw;
+    width: 35vw;
     font-size: 50px;
     font-family: "Cormorant Upright";
     color: darkgoldenrod;
