@@ -1,127 +1,104 @@
 .app__bg {
-    background: url('../../images/bg4.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    background-attachment: fixed;
-  }
-.app__gallery{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 2rem;
+  background: url("../../images/bg4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.app__gallery {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 2rem;
 }
 .app__gallery-images {
-    /* flex: 1; */
-    display: flex;
-    flex-direction: row;
-    max-width: 90%;
-    position: relative;
-    
+  /* flex: 1; */
+  display: flex;
+  flex-direction: row;
+  max-width: 90%;
+  position: relative;
 }
 .app__gallery-images_container {
-    display: flex;
-    flex-direction: row;
-    width: max-content;
-    overflow-x: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.app__gallery-images_container::-webkit-scrollbar{
-    display: none;
+.app__gallery-images_container::-webkit-scrollbar {
+  display: none;
 }
 .app__gallery-images_card {
-    position: relative;
-    min-width: 300px;
-    height: 447px;
-    margin: 0 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  min-width: 300px;
+  height: 447px;
+  margin: 0 1rem;
 }
-/* .gallery__image-icon{
-    position: absolute;
-    color:'#fff';
-    font-size: 2rem;
-    opacity: 0.5;
-    transition: .5s ease;
-    cursor: pointer;
-} */
 
-.app__gallery-images_card img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 1;
-    transition: 0.5s ease;
+.app__gallery-images_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.7s ease;
 }
-/* .app__gallery-images_card:hover img{
-    opacity: 0.35;
-} */
-/* .app__gallery-images_card img:hover .gallery__image-icon {
-    opacity: 1;
-} */
+.app__gallery-images_card:hover img{
+    transition: 1s ease;
+}
 
 .app__gallery-images_arrows {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    margin: 1;
-    bottom: 35%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  margin: 1;
+  bottom: 45%;
 }
 .gallery__arrow-icon {
-    color: rgb(179, 118, 5);
-    font-size: 2rem;
-    cursor: pointer;
-    background-color: black;
-    border-radius: 5px;
-
+  color: whitesmoke;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 5px;
 }
 
-/* .gallery__arrow-icon:hover{
-    color:var(--color-white)
-} */
-@media screen and (min-width:2000px) {
-    .app__gallery-content{
-        min-width: 1000px;
-        
-    }
-    .app__gallery-images_card{
-        min-width: 400px;
-        height: 550px;
-    }
+.gallery__arrow-icon:hover {
+  color: rgb(179, 118, 5);
 }
-@media screen and (max-width:1150px) {
-    .app__gallery{
-        flex-direction: column;
-    }
-    .app__gallery-images{
-        max-width: 100%;
-        margin: 5rem 0;
-    }
-    
+@media screen and (min-width: 2000px) {
+  .app__gallery-content {
+    min-width: 1000px;
+  }
+  .app__gallery-images_card {
+    min-width: 400px;
+    height: 550px;
+  }
 }
-@media screen and (max-width:850px) {
-    .app__gallery{
-        padding: 4rem 2rem 4rem 2rem;
-    }
-    
+@media screen and (max-width: 1150px) {
+  .app__gallery {
+    flex-direction: column;
+  }
+  .app__gallery-images {
+    max-width: 100%;
+    margin: 5rem 0;
+  }
 }
-@media screen and (max-width:650px) {
-    .app__gallery{
-        padding: 4rem 1rem 4rem 1rem;
-    }
-    .app__gallery-content{
-        min-width: 100%;
-        
-    }
-    .app__gallery-images_card{
-        min-width:240px ;
-        height: 320px;
-
-    }
-    
+@media screen and (max-width: 850px) {
+  .app__gallery {
+    padding: 4rem 2rem 4rem 2rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .app__gallery {
+    padding: 4rem 1rem 4rem 1rem;
+  }
+  .app__gallery-content {
+    min-width: 100%;
+  }
+  .app__gallery-images_card {
+    min-width: 240px;
+    height: 320px;
+  }
 }
