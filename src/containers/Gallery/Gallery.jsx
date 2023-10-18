@@ -10,7 +10,8 @@ import image4 from "../../images/gallery/4.webp";
 import image5 from "../../images/gallery/5.webp";
 import image6 from "../../images/gallery/6.webp";
 import image7 from "../../images/gallery/7.jpg";
-import image8 from "../../images/gallery/8.jpg";
+import image8 from "../../images/gallery/8.png";
+import image9 from "../../images/gallery/9.jpg";
 
 const galleryImages = [
   image1,
@@ -21,6 +22,7 @@ const galleryImages = [
   image6,
   image7,
   image8,
+  image9,
 ];
 
 const Gallery = () => {
