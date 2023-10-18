@@ -7,11 +7,11 @@ import pic3 from '../../images/review3.jpg'
 
 const Review = () => {
 
-  const name1 ="Helen of Troy";
+  const name1 ="Helen";
   const name2 ="Nikki";
-  const name3 ="Edna McGuffin";
+  const name3 ="Edna";
 
-  const comment1 ="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
+  const comment1 ="Lorem ipsum positive comment! ";
  
   const rating1 ="⭐⭐⭐⭐★";
   const rating2 ="⭐⭐⭐★★";

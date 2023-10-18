@@ -8,8 +8,8 @@ const ReviewCard = ({img, name, comment, rating}) => {
     <div className='app__reviewcard-left'>
     <div className='app__reviewcard-left-pic'>
         <img src={img} alt="review pic" />
-        </div>
-        <div className='app__reviewcard-left-name'>
+        
+        
             <h2>{name}</h2>
         </div>
     </div>
