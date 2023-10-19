@@ -1,33 +1,23 @@
-import React from 'react'
-import './ReviewCard.css';
+import React from "react";
+import "./ReviewCard.css";
 
-const ReviewCard = ({img, name, comment, rating}) => {
+const ReviewCard = ({ img, name, role }) => {
   return (
-    <div className='app__reviewcard'>
-
-    <div className='app__reviewcard-left'>
-    <div className='app__reviewcard-left-pic'>
-        <img src={img} alt="review pic" />
-        
-        
-            <h2>{name}</h2>
+    <div className="app__reviewcard">
+      <div className="app__reviewcard-content">
+        <div className="app__reviewcard-content-pic">
+          <img src={img} alt="review pic" />
         </div>
-    </div>
-
-    <div className='app__reviewcard-right'>
-        <div className='app__reviewcard-right-rating'>
-        {rating}
+        <div className="app__reviewcard-content-name">
+          <h2>{name}</h2>
         </div>
-        <div className='app__reviewcard-right-comment'>
-            <h3>{comment} </h3>
+
+        <div className="app__reviewcard-content-role">
+          <h3>{role} </h3>
         </div>
+      </div>
     </div>
+  );
+};
 
-    </div>
-
-
-    
-  )
-}
-
-export default ReviewCard
+export default ReviewCard;
