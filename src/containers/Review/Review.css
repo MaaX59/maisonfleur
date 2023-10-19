@@ -1,18 +1,16 @@
 .app__review{
-    height: 350px;
+    /* height: 350px; */
     margin: 2rem;
 }
 .app__review-title{
     display: flex;
     justify-content: center;
     line-height: 55px;
-    
 }
 .app__review-title h1{
     font-family: Cormorant Upright;
     font-size: 100px;
     color: rgb(194, 144, 7);
-    text-decoration: dotted;
 }
 
 .app__review-content{
@@ -20,4 +18,34 @@
     justify-content: center;
     align-items: center;
     
+}
+
+@media screen and (max-width: 1150px){
+    .app__review-title{
+        line-height: 25px;
+    }
+    .app__review-title h1{
+        font-size: 70px;
+    }
+    .app__review-content{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 650px){
+    .app__review-title h1{
+        font-size: 60px;
+    }
+
+}
+@media screen and (max-width: 450px){
+    .app__review-title h1{
+        font-size: 40px;
+    }
+
+}
+@media screen and (max-width: 300px){
+    .app__review-title h1{
+        font-size: 35px;
+    }
+
 }

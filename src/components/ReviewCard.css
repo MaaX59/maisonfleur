@@ -1,7 +1,7 @@
 .app__reviewcard {
   height: auto;
+  /* max-width: 500px; */
   width: 500px;
-  /* border-left: 1px solid black; */
   justify-content: center;
   display: flex;
   margin: 1.5rem;
@@ -34,3 +34,25 @@
   font-weight: 500;
   font-style: italic;
 }
+
+@media screen and (max-width: 800px){
+  .app__reviewcard{
+      width: 450px ;
+  }
+
+}
+@media screen and (max-width: 600px){
+  .app__reviewcard{
+      width: 400px ;
+  }
+
+}
+@media screen and (max-width: 400px){
+  .app__reviewcard{
+    margin: 1rem;
+     max-width: max-content;
+  }
+
+}
+
+
