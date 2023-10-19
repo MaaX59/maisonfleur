@@ -35,24 +35,19 @@
   font-style: italic;
 }
 
-@media screen and (max-width: 800px){
-  .app__reviewcard{
-      width: 450px ;
+@media screen and (max-width: 800px) {
+  .app__reviewcard {
+    width: 450px;
   }
-
 }
-@media screen and (max-width: 600px){
-  .app__reviewcard{
-      width: 400px ;
+@media screen and (max-width: 600px) {
+  .app__reviewcard {
+    width: 400px;
   }
-
 }
-@media screen and (max-width: 400px){
-  .app__reviewcard{
+@media screen and (max-width: 400px) {
+  .app__reviewcard {
     margin: 1rem;
-     max-width: max-content;
+    max-width: max-content;
   }
-
 }
-
-
