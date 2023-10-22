@@ -114,8 +114,9 @@
     min-width: 100%;
   }
   .app__gallery-images_card{
-    min-width:240px ;
+    min-width:200px ;
         height: 320px;
+        padding: 0 1rem;
   }
   
 }

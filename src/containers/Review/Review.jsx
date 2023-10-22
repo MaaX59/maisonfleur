@@ -4,6 +4,10 @@ import ReviewCard from '../../components/ReviewCard'
 import pic1 from '../../images/review2.jpg'
 import pic2 from '../../images/review1.jpg'
 import pic3 from '../../images/review3.jpg'
+import vector from '../../images/flower-black-and-white.png'
+import vector2 from '../../images/flower-black-and-white-reverse.png'
+
+
 
 const Review = () => {
 
@@ -23,7 +27,9 @@ const Review = () => {
   return (
     <div className='app__review'>
     <div className='app__review-title'>
+      <img src={vector} alt="vector flower" />
       <h1>Meet our team!</h1>
+      <img src={vector2} alt="vector flower" />
     </div>
     <div className='app__review-content'>
       <ReviewCard name={name1}  role={role1} img={pic1} />
