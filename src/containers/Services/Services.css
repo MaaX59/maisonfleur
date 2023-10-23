@@ -1,14 +1,22 @@
-.app__services {
+.app__services img{
+  border: 3px solid darkgoldenrod;
+ 
 }
 .app__services-weddings {
   display: flex;
   justify-content: space-between;
-  height: 35vw;
-  /* border: 1px solid black; */
+  height: 49.5vw;
+  width: 49.5vw;
+}
+.app__services-weddings-content h1{
+  width: 49.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .app__services-weddings-content {
-  height: 35vw;
-  width: 35vw;
+  height: 49.5vw;
+  width: 49.5vw;
   font-size: 50px;
   font-family: "Cormorant Upright";
   color: darkgoldenrod;
@@ -19,14 +27,22 @@
 .app__services-valentine {
   display: flex;
   justify-content: space-between;
-  height: 35vw;
+  height: 49.5vw;
+  width: 49.5vw;
+  /* border: 2px solid darkgoldenrod; */
 }
 .app__services-valentine-content {
-  height: 35vw;
-  width: 35vw;
+
+  width: 49.5vw;
   font-size: 50px;
   font-family: "Cormorant Upright";
   color: darkgoldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__services-valentine-content h1{
+  width: 49.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,39 +50,62 @@
 .app__services-mother {
   display: flex;
   justify-content: space-between;
-  height: 35vw;
+  height: 49.5vw;
+  width: 49.5vw;
+  /* border: 2px solid darkgoldenrod; */
 }
 .app__services-mother-content {
-  height: 35vw;
-  width: 35vw;
+  height: 49.5vw;
+  width: 49vw;
   font-size: 50px;
   font-family: "Cormorant Upright";
   color: darkgoldenrod;
   display: flex;
+  
+}
+.app__services-mother-content h1{
+  display: flex;
   justify-content: center;
   align-items: center;
+  width: 49vw;
 }
 
 @media screen and (max-width: 1150px) {
   .app__services-mother-content {
     font-size: 35px;
+    height: 49vw;
+    width: 49vw;
   }
   .app__services-valentine-content {
     font-size: 35px;
+    height: 49vw;
+    width: 49vw;
   }
   .app__services-weddings-content {
     font-size: 35px;
+    height: 49vw;
+    width: 49vw;
   }
 }
 @media screen and (max-width: 800px) {
   .app__services-mother-content {
     font-size: 25px;
+    /* height: 49.5vw;
+    width: 49.5vw; */
+  }
+  .app__services-mother{
+    /* width: 49.5vw;
+    height: 49.5vw; */
   }
   .app__services-valentine-content {
     font-size: 25px;
+    /* height: 49.5vw;
+    width: 49.5vw; */
   }
   .app__services-weddings-content {
     font-size: 25px;
+    /* height: 49.5vw;
+    width: 49.5vw; */
   }
 }
 @media screen and (max-width: 570px) {
