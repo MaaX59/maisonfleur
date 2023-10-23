@@ -1,6 +1,10 @@
-.app__services img{
+.app__services-pic{
   border: 3px solid darkgoldenrod;
  
+}
+.app__services-blossom{
+  height: auto;
+  width: 200px;
 }
 .app__services-weddings {
   display: flex;
@@ -61,6 +65,8 @@
   font-family: "Cormorant Upright";
   color: darkgoldenrod;
   display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 .app__services-mother-content h1{

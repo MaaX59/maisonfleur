@@ -50,9 +50,12 @@
   font-weight: 600;
  margin-right: 1rem;
 }
+.app__navbar-contact a:hover{
+  color: rgb(199, 131, 6);
+}
 .app__navbar-menu-links li a:visited {
   text-decoration: none;
-  color: rgb(172, 114, 8);
+  /* color: rgb(172, 114, 8); */
 }
 .app__navbar-menu-links li a:hover {
   color: rgb(199, 131, 6);
