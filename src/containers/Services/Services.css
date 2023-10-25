@@ -6,20 +6,46 @@
   height: auto;
   width: 200px;
 }
+.app__services button{
+  background: rgb(62, 189, 62);
+  color: antiquewhite;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.app__services button:hover{
+  background: rgb(92, 196, 92);
+}
+.app__services h2{
+  font-family: "Amatic SC";
+  font-size: 45px;
+}
+
 .app__services-weddings {
   display: flex;
   justify-content: space-between;
   height: 49.5vw;
   width: 49.5vw;
+  line-height: 1rem;
 }
-.app__services-weddings-content h1{
+.app__services-weddings-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 49.5vw;
+  width: 49vw;
+}
+.app__services-weddings-title h1{
   width: 49.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.app__services-weddings-content {
-  height: 49.5vw;
+.app__services-weddings-title {
+  height: 75px;
   width: 49.5vw;
   font-size: 50px;
   font-family: "Cormorant Upright";
@@ -35,9 +61,17 @@
   width: 49.5vw;
   /* border: 2px solid darkgoldenrod; */
 }
-.app__services-valentine-content {
+.app__services-valentine-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 49.5vw;
+  width: 49vw;
+}
+.app__services-valentine-title {
 
-  width: 49.5vw;
+  height: 75px;
   font-size: 50px;
   font-family: "Cormorant Upright";
   color: darkgoldenrod;
@@ -45,7 +79,7 @@
   justify-content: center;
   align-items: center;
 }
-.app__services-valentine-content h1{
+.app__services-valentine-title h1{
   width: 49.5vw;
   display: flex;
   justify-content: center;
@@ -58,18 +92,23 @@
   width: 49.5vw;
   /* border: 2px solid darkgoldenrod; */
 }
-.app__services-mother-content {
+.app__services-mother-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   height: 49.5vw;
   width: 49vw;
+}
+.app__services-mother-title {
+  height: 75px;
   font-size: 50px;
   font-family: "Cormorant Upright";
   color: darkgoldenrod;
   display: flex;
-  justify-content: center;
   align-items: center;
-  
 }
-.app__services-mother-content h1{
+.app__services-mother-title h1{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,73 +116,80 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .app__services-mother-content {
+  .app__services-mother-title {
     font-size: 35px;
     height: 49vw;
     width: 49vw;
   }
-  .app__services-valentine-content {
+  .app__services-valentine-title {
     font-size: 35px;
     height: 49vw;
     width: 49vw;
   }
-  .app__services-weddings-content {
+  .app__services-weddings-title {
     font-size: 35px;
     height: 49vw;
     width: 49vw;
   }
 }
 @media screen and (max-width: 800px) {
-  .app__services-mother-content {
+  .app__services-mother-title {
     font-size: 25px;
     /* height: 49.5vw;
     width: 49.5vw; */
   }
-  .app__services-mother{
-    /* width: 49.5vw;
-    height: 49.5vw; */
-  }
-  .app__services-valentine-content {
+  
+  .app__services-valentine-title {
     font-size: 25px;
     /* height: 49.5vw;
     width: 49.5vw; */
   }
-  .app__services-weddings-content {
+  .app__services-weddings-title {
     font-size: 25px;
     /* height: 49.5vw;
     width: 49.5vw; */
   }
 }
 @media screen and (max-width: 570px) {
-  .app__services-mother-content {
+  .app__services-mother-title {
+    font-size: 14px;
+  }
+  .app__services-valentine-title {
     font-size: 20px;
   }
-  .app__services-valentine-content {
+  .app__services-weddings-title {
     font-size: 20px;
   }
-  .app__services-weddings-content {
-    font-size: 20px;
+  .app__services-blossom{
+    height: auto;
+    width: 40px;
   }
 }
 @media screen and (max-width: 470px) {
-  .app__services-mother-content {
+  .app__services-mother-title {
     font-size: 15px;
   }
-  .app__services-valentine-content {
+  .app__services-valentine-title {
     font-size: 15px;
   }
-  .app__services-weddings-content {
+  .app__services-weddings-title {
     font-size: 15px;
+  }
+  .app__services-blossom{
+    width: 75px;
   }
 }
 @media screen and (max-width: 350px) {
-  .app__services-mother-content {
+  .app__services-mother-title {
     font-size: 10px;
   }
-  .app__services-valentine-content {
+  .app__services-valentine-title {
     font-size: 10px;
   }
-  .app__services-weddings-content {
+  .app__services-weddings-title {
     font-size: 10px;
+  }
+  .app__services-blossom{
+    width: 50px;
   }
 }

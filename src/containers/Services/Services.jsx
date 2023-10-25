@@ -9,44 +9,67 @@ import blossomReverse from "../../images/blossom-reverse.png";
 const Services = () => {
   return (
     <div className="app__services" id="services">
+
       <div className="app__services-weddings">
         <img className="app__services-pic" src={Wedding} alt="wedding" />
-        <div className="app__services-weddings-content">
-          <img className="app__services-blossom" src={blossom} alt="flower" />
+        <div className="app__services-weddings-content" >
+        <div className="app__services-weddings-title">
           <h1>Weddings</h1>
+          </div>
+          <div>
           <img
             className="app__services-blossom"
             src={blossomReverse}
-            alt="flower"
-          />
+            alt="flower"/>
+          <img 
+          className="app__services-blossom" 
+          src={blossom} 
+          alt="flower" />
+          </div>
+          <h2>Make your special day more special!</h2>
+          <button>Learn More</button>
         </div>
       </div>
+
       <div className="app__services-valentine">
-        <div className="app__services-valentine-content">
-          <img className="app__services-blossom" src={blossom} alt="flower" />
+        <div className="app__services-valentine-content" > 
+        <div className="app__services-valentine-title">
           <h1>Valentine</h1>
+          </div>
+          <div>
           <img
             className="app__services-blossom"
             src={blossomReverse}
-            alt="flower"
-          />
+            alt="flower"/>
+          <img 
+          className="app__services-blossom" 
+          src={blossom} 
+          alt="flower" />
+          </div>
+          <h2>Love means means buying expensive flowers!</h2>
+          <button>Learn More</button>
         </div>
-        <img src={Valentine} alt="valentine" />
+        <img className="app__services-pic" src={Valentine} alt="valentine" />
       </div>
       <div className="app__services-mother">
-        <img src={Mother} alt="mothers day" />
-        <div className="app__services-"></div>
-
+        <img className="app__services-pic" src={Mother} alt="mothers day" />
         <div className="app__services-mother-content">
-          <img className="app__services-blossom" src={blossom} alt="flower" />
-          <h1>Mother´s Day</h1>
+          <div className="app__services-mother-title">
+            <h1>Mother´s Day</h1>
+          </div>
+          <div >
           <img
             className="app__services-blossom"
             src={blossomReverse}
-            alt="flower"
-          />
+            alt="flower"/>
+          <img 
+          className="app__services-blossom" 
+          src={blossom} 
+          alt="flower" />
+          </div>
+          <h2>Show your mom some extra love!</h2>
+          <button>Learn More</button>
         </div>
-
       </div>
       {/* <div className='app__services-'></div>
       <div className='app__services'></div> */}
