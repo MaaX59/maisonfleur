@@ -38,7 +38,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="app__gallery app__bg">
+    <div className="app__gallery app__bg" id="gallery">
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
           {galleryImages.map((image, index) => (

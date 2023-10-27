@@ -25,7 +25,7 @@ const Review = () => {
   
 
   return (
-    <div className='app__review'>
+    <div className='app__review' id="team">
     <div className='app__review-title'>
       <img src={vector} alt="vector flower" />
       <h1>Meet our team!</h1>
