@@ -46,7 +46,7 @@ const Services = () => {
           src={blossom} 
           alt="flower" />
           </div>
-          <h2>Love means means buying expensive flowers!</h2>
+          <h2>A day to put your tulips together!</h2>
           <button>LEARN MORE</button>
         </div>
         <img className="app__services-pic" src={Valentine} alt="valentine" />

@@ -43,8 +43,8 @@ background-position: 0% 60%;
 .app__services-weddings {
   display: flex;
   justify-content: space-between;
-  height: 49.5vw;
-  width: 49.5vw;
+  height: 49vw;
+  width: 49vw;
   line-height: 1rem;
 }
 .app__services-weddings-content{
@@ -105,8 +105,8 @@ background-position: 0% 60%;
 .app__services-mother {
   display: flex;
   justify-content: space-between;
-  height: 49.5vw;
-  width: 49.5vw;
+  height: 49vw;
+  width: 49vw;
   /* border: 2px solid darkgoldenrod; */
 }
 .app__services-mother-content{
@@ -114,7 +114,7 @@ background-position: 0% 60%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 49.5vw;
+  height: 49vw;
   width: 49vw;
 }
 .app__services-mother-title {
@@ -135,41 +135,63 @@ background-position: 0% 60%;
 @media screen and (max-width: 1150px) {
   .app__services-mother-title {
     font-size: 35px;
-    height: 49vw;
-    width: 49vw;
+    /* height: 49vw;
+    width: 49vw; */
+    height: 40px;
   }
   .app__services-valentine-title {
     font-size: 35px;
-    height: 49vw;
-    width: 49vw;
+    /* height: 49vw;
+    width: 49vw; */
+    height: 40px;
   }
   .app__services-weddings-title {
     font-size: 35px;
-    height: 49vw;
-    width: 49vw;
+    /* height: 49vw;
+    width: 49vw; */
+    height: 40px;
+  }
+  .app__services h2{
+    font-size: 35px;
+  }
+  .app__services-blossom{
+    width: 140px;
   }
 }
 @media screen and (max-width: 800px) {
+  .app__services button{
+    height: 38px;
+    width: 120px;
+    font-size: 14px;
+  }
   .app__services-mother-title {
     font-size: 25px;
+    height: 30px;
     /* height: 49.5vw;
     width: 49.5vw; */
   }
-  
   .app__services-valentine-title {
     font-size: 25px;
+    height: 30px;
     /* height: 49.5vw;
     width: 49.5vw; */
   }
   .app__services-weddings-title {
     font-size: 25px;
+    height: 30px;
     /* height: 49.5vw;
     width: 49.5vw; */
+  }
+  .app__services h2{
+    font-size: 25px;
+  }
+  .app__services-blossom{
+    width: 95px;
   }
 }
 @media screen and (max-width: 570px) {
   .app__services-mother-title {
-    font-size: 14px;
+    font-size: 20px;
   }
   .app__services-valentine-title {
     font-size: 20px;
@@ -178,8 +200,16 @@ background-position: 0% 60%;
     font-size: 20px;
   }
   .app__services-blossom{
-    height: auto;
-    width: 40px;
+    /* height: auto; */
+    width: 80px;
+  }
+  .app__services h2{
+    font-size: 20px;
+  }
+  .app__services button{
+    height:35px ;
+    width:100px ;
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 470px) {
@@ -195,18 +225,32 @@ background-position: 0% 60%;
   .app__services-blossom{
     width: 75px;
   }
+  .app__services h2{
+    font-size: 16px;
+  }
+  .app__services button{
+    height:25px ;
+    width:80px ;
+    font-size: 10px;
+  }
 }
 @media screen and (max-width: 350px) {
   .app__services-mother-title {
-    font-size: 10px;
+    font-size: 13px;
+    height: 20px;
   }
   .app__services-valentine-title {
-    font-size: 10px;
+    font-size: 13px;
+    height: 20px;
   }
   .app__services-weddings-title {
-    font-size: 10px;
+    font-size: 13px;
+    height: 20px;
   }
   .app__services-blossom{
-    width: 50px;
+    width: 55px;
+  }
+  .app__services h2{
+    font-size: 13px;
   }
 }
