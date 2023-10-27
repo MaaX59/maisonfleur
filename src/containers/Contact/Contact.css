@@ -1,0 +1,27 @@
+.app__contact{
+    height: 200px;
+    background: beige;
+    
+}
+.app__contact-title{
+    display: flex;
+    justify-content: center;
+}
+.app__contact-content{
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+
+}
+.app__contact-content-email{
+
+}
+.app__contact-content-hours{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.app__contact-content-phone{
+
+}
