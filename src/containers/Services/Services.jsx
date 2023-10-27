@@ -27,7 +27,7 @@ const Services = () => {
           alt="flower" />
           </div>
           <h2>Make your special day more special!</h2>
-          <button>Learn More</button>
+          <button>LEARN MORE</button>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ const Services = () => {
           alt="flower" />
           </div>
           <h2>Love means means buying expensive flowers!</h2>
-          <button>Learn More</button>
+          <button>LEARN MORE</button>
         </div>
         <img className="app__services-pic" src={Valentine} alt="valentine" />
       </div>
@@ -68,7 +68,7 @@ const Services = () => {
           alt="flower" />
           </div>
           <h2>Show your mom some extra love!</h2>
-          <button>Learn More</button>
+          <button>LEARN MORE</button>
         </div>
       </div>
       {/* <div className='app__services-'></div>

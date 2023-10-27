@@ -7,16 +7,33 @@
   width: 200px;
 }
 .app__services button{
-  background: rgb(62, 189, 62);
-  color: antiquewhite;
-  height: 50px;
-  width: 100px;
-  border: none;
+  background: white;
+  /* background: linear-gradient(140deg, rgb(255, 255, 255) 80%, rgb(77, 77, 216) 97%); */
+  /* background-size: 300% 300%; */
+  color: rgb(227, 157, 26);
+  height: 70px;
+  width: 160px;
+  border:  solid 0.5px rgb(197, 158, 20);
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 21px;
+  font-weight: 700;
+  font-family: "Cormorant Upright";
 }
 .app__services button:hover{
-  background: rgb(92, 196, 92);
+  background: linear-gradient(140deg, rgb(255, 255, 255) 45%, rgb(77, 77, 216) 60%);
+  background-size: 300% 300%;
+  animation: rotate 4s ease-in-out infinite;
+}
+@keyframes rotate{
+  0%{
+background-position: 0% 60%;
+  }
+  50%{
+    background-position:60% 100% ;
+  }
+  /* 100%{
+    background-position: 0% 60%;
+  } */
 }
 .app__services h2{
   font-family: "Amatic SC";
