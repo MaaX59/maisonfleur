@@ -20,9 +20,10 @@
   font-family: "Cormorant Upright";
 }
 .app__services button:hover{
-  background: linear-gradient(140deg, rgb(255, 255, 255) 45%, rgb(77, 77, 216) 60%);
+  background: linear-gradient(140deg, rgb(255, 255, 255) 45%, rgb(219, 190, 112) 60%);
   background-size: 300% 300%;
-  animation: rotate 4s ease-in-out infinite;
+  cursor: pointer;
+  animation: rotate 3.5s ease-in-out infinite;
 }
 @keyframes rotate{
   0%{
@@ -30,6 +31,7 @@ background-position: 0% 60%;
   }
   50%{
     background-position:60% 100% ;
+    color: black;
   }
   /* 100%{
     background-position: 0% 60%;
