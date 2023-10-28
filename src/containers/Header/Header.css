@@ -70,3 +70,25 @@
     margin: 0.5rem;
   }
 }
+@media screen and (max-width: 450px) {
+  .app__header-text {
+    margin-left: 1rem;
+    line-height: 7px;
+  }
+  .app__header-text h1 {
+    
+    font-size: 20px;
+  }
+  .app__header-text h2 {
+    font-size: 12px;
+    font-weight: 300;
+    
+  }
+  .app__header-text button{
+    margin: 0.5rem;
+    width: 60px;
+    height: 25px;
+    font-size: 9px;
+  }
+}
+

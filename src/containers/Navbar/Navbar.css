@@ -1,13 +1,13 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap"); */
-
 .app__navbar {
+  position: fixed;
+  width: 100vw;
   background: #e9dfe0;
   height: 45px;
-  padding: 1rem;
+  padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
 }
 .app__navbar-logo {
   font-family: "Great Vibes", cursive;
@@ -15,13 +15,13 @@
   font-weight: 600;
   display: flex;
   align-items: center;
+  padding-left: 1rem;
 }
-
 .app__navbar-logo img {
   height: 45px;
   margin: 0 0.3rem;
 }
-.app__navbar-menu-links{
+.app__navbar-menu-links {
   list-style: none;
   /* position: relative;
   width: 100%; */
@@ -30,14 +30,13 @@
   padding-right: 15rem;
   text-decoration: none;
   align-items: center;
-  
-
 }
-.app__navbar-menu-links li a{
+.app__navbar-menu-links li a {
   padding-left: 1rem;
 }
 
-.app__navbar-menu-links li a , .app__navbar-contact a{
+.app__navbar-menu-links li a,
+.app__navbar-contact a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,9 +47,12 @@
   color: rgb(163, 106, 0);
   font-size: 35px;
   font-weight: 600;
- margin-right: 1rem;
+  padding-right: 1rem;
 }
-.app__navbar-contact a:hover{
+.app__navbar-contact {
+  padding-right: 1rem;
+}
+.app__navbar-contact a:hover {
   color: rgb(199, 131, 6);
 }
 .app__navbar-menu-links li a:visited {
@@ -70,17 +72,17 @@
   transition: 0.5s ease;
   z-index: 5;
   flex-direction: column;
-  
 }
-.app__navbar-smallscreen{
+.app__navbar-smallscreen {
   display: none;
+  padding-right: 1rem;
 }
+
 
 .app__navbar-menu-popup-links {
   margin-top: 120px;
 }
 .app__navbar-menu-popup-links li {
-  
   list-style: none;
 }
 .app__navbar-menu-popup-links li a {
@@ -130,8 +132,8 @@
     transform: translateY(0);
   }
 }
-@media screen and (max-width: 1300px){
-  .app__navbar-logo{
+@media screen and (max-width: 1300px) {
+  .app__navbar-logo {
     font-size: 30px;
   }
 }
@@ -139,18 +141,21 @@
   .app__navbar {
     justify-content: space-between;
   }
-  .app__navbar-logo{
+  .app__navbar-logo {
     font-size: 28px;
   }
   .app__navbar-smallscreen {
-    
-    display:flex ;
+    display: flex;
   }
-  .app__navbar-menu{
+  .app__navbar-menu {
     display: none;
   }
-  .app__navbar-contact{
+  .app__navbar-contact {
     display: none;
   }
-  
+}
+@media screen and (max-width: 550px) {
+  .app__navbar-logo {
+    font-size: 24px;
+  }
 }
