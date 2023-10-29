@@ -23,8 +23,8 @@
 }
 .app__navbar-menu-links {
   list-style: none;
-  /* position: relative;
-  width: 100%; */
+  position: relative;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding-right: 15rem;
@@ -64,7 +64,7 @@
 }
 .app__navbar-menu-popup {
   position: fixed;
-  top: 77px;
+  top: 70px;
   left: 0;
   width: 100%;
   height: 100vh;
@@ -75,7 +75,9 @@
 }
 .app__navbar-smallscreen {
   display: none;
-  padding-right: 1rem;
+  padding-right: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .app__navbar-menu-popup-links {

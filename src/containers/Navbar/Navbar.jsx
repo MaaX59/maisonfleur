@@ -12,6 +12,7 @@ const Navbar = () => {
         <img src={Bouquet} alt="bouquet" />
         Maison De La Fleur
       </div>
+      
       <div className="app__navbar-menu">
         <ul className="app__navbar-menu-links">
           <li>
@@ -50,6 +51,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
+
     </div>
   );
 };
