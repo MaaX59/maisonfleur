@@ -124,15 +124,7 @@
   .app__services-blossom {
     width: 95px;
   }
-  .app__services-valentine,
-  .app__services-valentine-content,
-  .app__services-weddings,
-  .app__services-weddings-content,
-  .app__services-mother,
-  .app__services-mother-content,
-  .app__services-pic {
-    width: 50vw;
-  }
+  
 }
 @media screen and (max-width: 570px) {
   .app__services-mother-title,
