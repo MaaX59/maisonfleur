@@ -5,7 +5,8 @@ const Contact = () => {
   return (
     <div className="app__contact" id="contact">
       <div className="app__contact-title">
-        <h1>Contact us!</h1></div>
+        <h1>Contact us!</h1>
+      </div>
       <div className="app__contact-content">
         <div className="app__contact-content-email">
           <h1>Email:</h1>
@@ -19,12 +20,13 @@ const Contact = () => {
 
         <div className="app__contact-content-phone">
           <h1>Phone Number:</h1>
-          <h2>+33 78 90 12 23 4</h2></div>
+          <h2>+33 78 90 12 23 4</h2>
+        </div>
         <div className="app__contact-content-adress">
           <h1>Adress:</h1>
-          <h2>69 Rue De La Belle Maire</h2> 
+          <h2>69 Rue De La Belle Maire</h2>
           <h2>75011 Paris</h2>
-          </div>
+        </div>
       </div>
     </div>
   );

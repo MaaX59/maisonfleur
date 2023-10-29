@@ -1,8 +1,6 @@
-.app__services {
-  width: 100%;
-}
 .app__services-pic {
   border: 2px solid darkgoldenrod;
+  width: 48.8vw;
 }
 .app__services-blossom {
   height: auto;
@@ -140,8 +138,13 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .app__services-valentine, .app__services-valentine-content{
-    width: 48.7vw;
+  .app__services-valentine,
+  .app__services-valentine-content,
+  .app__services-weddings,
+  .app__services-weddings-content,
+  .app__services-mother,
+  .app__services-mother-content {
+    width: 50vw;
   }
   .app__services-mother-title {
     font-size: 35px;
@@ -198,8 +201,14 @@
   .app__services-blossom {
     width: 95px;
   }
-  .app__services-valentine, .app__services-valentine-content{
-    width: 48.7vw;
+  .app__services-valentine,
+  .app__services-valentine-content,
+  .app__services-weddings,
+  .app__services-weddings-content,
+  .app__services-mother,
+  .app__services-mother-content,
+  .app__services-pic {
+    width: 50vw;
   }
 }
 @media screen and (max-width: 570px) {
@@ -208,9 +217,6 @@
   }
   .app__services-valentine-title {
     font-size: 20px;
-  }
-  .app__services-valentine, .app__services-valentine-content{
-    width: 48.8vw;
   }
   .app__services-weddings-title {
     font-size: 20px;
@@ -226,6 +232,15 @@
     width: 100px;
     font-size: 13px;
   }
+  /* .app__services-valentine,
+  .app__services-valentine-content,
+  .app__services-weddings,
+  .app__services-weddings-content,
+  .app__services-mother,
+  .app__services-mother-content,
+  .app__services-pic {
+    width: 48vw;
+  } */
 }
 @media screen and (max-width: 470px) {
   .app__services-mother-title {
@@ -248,9 +263,14 @@
     width: 80px;
     font-size: 10px;
   }
-  .app__services-valentine, .app__services-valentine-content{
-    width: 48.7vw;
-  }
+  /* .app__services-valentine,
+  .app__services-valentine-content,
+  .app__services-weddings,
+  .app__services-weddings-content,
+  .app__services-mother,
+  .app__services-mother-content {
+    width: 48.4vw;
+  } */
 }
 @media screen and (max-width: 350px) {
   .app__services-mother-title {

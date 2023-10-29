@@ -1,6 +1,5 @@
 .app__contact {
-    padding: 1rem 0;
- 
+  padding: 1rem 0;
   background: rgb(246, 246, 244);
 }
 .app__contact h1 {
@@ -18,11 +17,10 @@
 .app__contact-title {
   display: flex;
   justify-content: center;
-  
 }
-.app__contact-title h1{
-    font-size: 45px;
-    color: rgb(206, 187, 18);
+.app__contact-title h1 {
+  font-size: 45px;
+  color: rgb(206, 187, 18);
 }
 .app__contact-content {
   display: flex;
@@ -55,10 +53,20 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1150px){
-    .app__contact-content{
-        flex-direction: column;
-        align-items: center;
-    }
-
+@media screen and (max-width: 1150px) {
+  .app__contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .app__contact h1 {
+    font-size: 23px;
+  }
+  .app__contact h2 {
+    font-size: 20px;
+  }
+  .app__contact-title h1 {
+    font-size: 37px;
+  }
 }

@@ -78,7 +78,6 @@
   padding-right: 1rem;
 }
 
-
 .app__navbar-menu-popup-links {
   margin-top: 120px;
 }
@@ -139,6 +138,7 @@
 }
 @media screen and (max-width: 1150px) {
   .app__navbar {
+    height: 40px;
     justify-content: space-between;
   }
   .app__navbar-logo {
@@ -157,5 +157,10 @@
 @media screen and (max-width: 550px) {
   .app__navbar-logo {
     font-size: 24px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .app__navbar-logo {
+    font-size: 17px;
   }
 }
