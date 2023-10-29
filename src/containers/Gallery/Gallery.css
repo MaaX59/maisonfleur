@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
-  size: 150%;
+  
 }
 .app__gallery {
   display: flex;
@@ -104,6 +104,9 @@
   }
   .app__gallery-images_card img {
     width: 250px;
+  }
+  .app__bg {
+    background-size: 300%;
   }
 }
 @media screen and (max-width: 650px) {

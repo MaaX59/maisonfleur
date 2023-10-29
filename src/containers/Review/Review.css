@@ -44,7 +44,7 @@
 }
 @media screen and (max-width: 450px) {
   .app__review-title h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
   .app__review-title img {
     height: 35px;
@@ -52,12 +52,12 @@
 }
 @media screen and (max-width: 330px) {
   .app__review-title h1 {
-    font-size: 35px;
+    font-size: 32px;
   }
 }
 @media screen and (max-width: 290px) {
   .app__review-title h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
   .app__review-title img {
     height: 30px;
@@ -65,7 +65,7 @@
 }
 @media screen and (max-width: 275px) {
   .app__review-title h1 {
-    font-size: 27px;
+    font-size: 25px;
   }
   .app__review-title img {
     height: 27px;
