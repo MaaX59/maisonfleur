@@ -79,7 +79,6 @@
 .app__services-mother-title h1,
 .app__services-weddings-title h1,
 .app__services-valentine-title h1 {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,7 +123,6 @@
   .app__services-blossom {
     width: 95px;
   }
-  
 }
 @media screen and (max-width: 570px) {
   .app__services-mother-title,
