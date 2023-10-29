@@ -36,18 +36,19 @@ const Navbar = () => {
           <div className="app__navbar-menu-popup slide-bottom">
             <ul className="app__navbar-menu-popup-links">
               <li>
-                <a href="#services">Services</a>
+                <a onClick={()=>{setOpen(!open)}} href="#services">Services</a>
               </li>
               <li>
-                <a href="#gallery">Gallery</a>
+                <a onClick={()=>{setOpen(!open)}} href="#gallery">Gallery</a>
               </li>
               <li>
-                <a href="#team">Team</a>
+                <a onClick={()=>{setOpen(!open)}} href="#team">Team</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a onClick={()=>{setOpen(!open)}} href="#contact">Contact</a>
               </li>
             </ul>
+            {/* onClick={setOpen(!open)} */}
           </div>
         )}
       </div>

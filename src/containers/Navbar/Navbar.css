@@ -15,25 +15,26 @@
   font-weight: 600;
   display: flex;
   align-items: center;
-  padding-left: 1rem;
+  
 }
 .app__navbar-logo img {
   height: 45px;
   margin: 0 0.3rem;
+  padding-left: 1rem;
 }
 .app__navbar-menu-links {
   list-style: none;
   position: relative;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
-  justify-content: center;
-  padding-right: 15rem;
+  justify-content: space-between;
+  padding-right: 10rem;
   text-decoration: none;
   align-items: center;
+ 
 }
-.app__navbar-menu-links li a {
-  padding-left: 1rem;
-}
+
+
 
 .app__navbar-menu-links li a,
 .app__navbar-contact a {
@@ -47,7 +48,7 @@
   color: rgb(163, 106, 0);
   font-size: 35px;
   font-weight: 600;
-  padding-right: 1rem;
+  padding-right: 4rem;
 }
 .app__navbar-contact {
   padding-right: 1rem;
@@ -136,6 +137,10 @@
 @media screen and (max-width: 1300px) {
   .app__navbar-logo {
     font-size: 30px;
+  }
+  .app__navbar-menu-links {
+    padding-right: 5rem;
+       
   }
 }
 @media screen and (max-width: 1150px) {

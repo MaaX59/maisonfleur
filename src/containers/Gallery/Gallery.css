@@ -4,6 +4,7 @@
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
+  size: 150%;
 }
 .app__gallery {
   display: flex;
