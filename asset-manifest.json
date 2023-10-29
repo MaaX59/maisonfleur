@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/maisonfleur/static/css/main.dadb983d.css",
+    "main.css": "/maisonfleur/static/css/main.5799e4ca.css",
     "main.js": "/maisonfleur/static/js/main.bd000813.js",
     "static/js/787.f88a625f.chunk.js": "/maisonfleur/static/js/787.f88a625f.chunk.js",
     "static/media/rose.png": "/maisonfleur/static/media/rose.ff47f915c619775937de.png",
@@ -27,12 +27,12 @@
     "static/media/review1.jpg": "/maisonfleur/static/media/review1.ae94970c8ae97ca256cf.jpg",
     "static/media/logo.svg": "/maisonfleur/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/maisonfleur/index.html",
-    "main.dadb983d.css.map": "/maisonfleur/static/css/main.dadb983d.css.map",
+    "main.5799e4ca.css.map": "/maisonfleur/static/css/main.5799e4ca.css.map",
     "main.bd000813.js.map": "/maisonfleur/static/js/main.bd000813.js.map",
     "787.f88a625f.chunk.js.map": "/maisonfleur/static/js/787.f88a625f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dadb983d.css",
+    "static/css/main.5799e4ca.css",
     "static/js/main.bd000813.js"
   ]
 }
