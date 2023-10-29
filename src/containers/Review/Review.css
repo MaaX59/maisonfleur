@@ -57,9 +57,17 @@
 }
 @media screen and (max-width: 290px) {
   .app__review-title h1 {
-    font-size: 28px;
+    font-size: 30px;
   }
   .app__review-title img {
     height: 30px;
+  }
+}
+@media screen and (max-width: 275px) {
+  .app__review-title h1 {
+    font-size: 27px;
+  }
+  .app__review-title img {
+    height: 27px;
   }
 }

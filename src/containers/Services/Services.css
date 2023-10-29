@@ -159,6 +159,9 @@
     width: 80px;
     font-size: 10px;
   }
+  .app__services-pic {
+    width: 49vw;
+  }
 }
 @media screen and (max-width: 350px) {
   .app__services-mother-title,
@@ -172,5 +175,29 @@
   }
   .app__services h2 {
     font-size: 13px;
+  }
+  .app__services button {
+    height: 20px;
+    width: 80px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .app__services-mother-title,
+  .app__services-valentine-title,
+  .app__services-weddings-title {
+    font-size: 10px;
+    height: 18px;
+  }
+  .app__services-blossom {
+    width: 47px;
+  }
+  .app__services h2 {
+    font-size: 10px;
+  }
+  .app__services button {
+    height: 20px;
+    width: 80px;
+    font-size: 10px;
   }
 }
